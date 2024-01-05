@@ -1,0 +1,44 @@
+/* src/App.css */
+body {
+  margin: 0;
+  padding: 0;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  font-family: 'Arial', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.container {
+  background-color: rgba(0, 0, 0, 0.5); /* Yarı saydamlık eklemek için */
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.App {
+  text-align: center;
+}
+
+input {
+  padding: 8px;
+  margin-right: 5px;
+}
+
+button {
+  padding: 8px;
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin: 10px 0;
+}

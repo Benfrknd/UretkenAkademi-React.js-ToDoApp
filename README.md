@@ -1,3 +1,8 @@
-# UretkenAkademi-React.js-ToDoApp
-The codes of the project given in the seventh week of Üretken Akademi's React.js training.
-<img width="959" alt="image" src="https://github.com/Benfrknd/UretkenAkademi-React.js-ToDoApp/assets/40832418/6af3e3a1-4f96-41e9-94c6-c776ea165e4d">
+# React + Vite
+
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+
+Currently, two official plugins are available:
+
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
