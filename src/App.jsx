@@ -34,20 +34,19 @@ function App() {
       const currentHour = new Date().getHours();
 
       if (currentHour >= 6 && currentHour < 12) {
-        document.body.style.backgroundImage = 'url(morning.jpg)'; // Sabah
+        document.body.style.backgroundImage = 'url(morning.jpg)';
         setGreeting('Günaydın');
       } else if (currentHour >= 12 && currentHour < 18) {
-        document.body.style.backgroundImage = 'url(afternoon.jpg)'; // Öğle
+        document.body.style.backgroundImage = 'url(afternoon.jpg)';
         setGreeting('Tünaydın');
       } else {
-        document.body.style.backgroundImage = 'url(evening.jpg)'; // Akşam
+        document.body.style.backgroundImage = 'url(evening.jpg)';
         setGreeting('İyi Akşamlar');
       }
     };
 
     getCurrentTime();
-    const interval = setInterval(getCurrentTime, 60000); // Her dakika kontrol et
-
+    const interval = setInterval(getCurrentTime, 60000);
     return () => clearInterval(interval);
   }, []);
 
