@@ -13,7 +13,7 @@ body {
 }
 
 .container {
-  background-color: rgba(0, 0, 0, 0.5); /* Yarı saydamlık eklemek için */
+  background-color: rgba(0, 0, 0, 0.5);
   padding: 20px;
   border-radius: 10px;
   text-align: center;
